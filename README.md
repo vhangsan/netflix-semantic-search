@@ -10,7 +10,7 @@ The main tasks include:
 - **Data Preprocessing:** load and prepare dataset for analysis
 - **Word Embeddings:** generate vector embeddings for textual data
 - **Semantic Search:** interpret context and meaning behind search queries
-- **K-Nearest Neighbors (kNN):**find nearest neighbors based on text embeddings
+- **K-Nearest Neighbors (kNN):** find nearest neighbors based on text embeddings
 
 ## Python Version
 

@@ -12,7 +12,7 @@ df = pd.read_csv('processed_data.csv')
 columns = ['director', 'genres', 'country', 'description', 'cast']
 
 # store models in dictionary
-models = {column: FastText.load(f'{column}_model.bin') for column in columns}
+models = {column: FastText.load(f'models/{column}_model.bin') for column in columns}
 
 # load KNN model from pickle file
 knn = joblib.load('knn_model.pkl')
